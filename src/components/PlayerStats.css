@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #001f3f; 
+    color: black; 
+    margin: 0;
+    padding: 0;
+}
+
+.player-stats-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9a825; /* NBA yellow */
+    color: #001f3f;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffeb3b; /* Lighter yellow on hover */
+}
+
+.error {
+    color: red;
+}
+
+.player-card {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: rgba(0, 99, 170, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.player-card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.team-logo {
+    width: 50px;
+    height: auto;
+}
+
+.stats p {
+    margin: 0.5rem 0;
+}
