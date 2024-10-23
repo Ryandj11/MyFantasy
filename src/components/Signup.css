@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(/Users/ryanjohnson/nba_fantasy_app/public/photos/nba.jpg);
+    background-image: url('/photos/wallpaper.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
